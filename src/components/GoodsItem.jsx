@@ -1,3 +1,6 @@
+import { useContext } from "react";
+import { ShopContext } from "../context";
+
 function GoodsItem(props) {
   const {
     id,
@@ -5,8 +8,9 @@ function GoodsItem(props) {
     description,
     price,
     image,
-    addToBasket = Function.prototype,
   } = props;
+
+  const { AddBasket } = useContext(ShopContext);
 
   return (
     <div className="card">
@@ -21,7 +25,7 @@ function GoodsItem(props) {
         <button
           className="btn"
           onClick={() =>
-            addToBasket({
+            AddBasket({
               id,
               name,
               price,
