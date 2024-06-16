@@ -3,7 +3,7 @@
 **Автор курса: [Михаил Непомнящий](https://www.udemy.com/user/mikhail-nepomniashchii/)**
 
 ## Описание проекта
-react-shop — это эмуляция интернет магазина по апи [FortniteApi](https://fortniteapi.io)
+Интернет магазин по апи [FortniteApi](https://fortniteapi.io)
 
 ## Функционал:
 - Галлерея товаров с необходимой информацией;
@@ -14,6 +14,7 @@ react-shop — это эмуляция интернет магазина по а
   - Materialize (аналог Bootstrap);
 - JavaScript:
 - React JS:
+  - createContext, useReducer 
 
 ## Установка и запуск приложения:
 Клонировать репозиторий:
