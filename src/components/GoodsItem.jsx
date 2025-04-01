@@ -7,7 +7,8 @@ function GoodsItem(props) {
     name,
     description,
     price,
-    image,
+    images,
+    // image,
   } = props;
 
   const { AddBasket } = useContext(ShopContext);
@@ -15,7 +16,8 @@ function GoodsItem(props) {
   return (
     <div className="card">
       <div className="card-image">
-        <img src={image} alt={name} />
+        <img src={images.background} alt={name} />
+        {/* <img src={image} alt={name} /> */}
       </div>
       <div className="card-content">
         <span className="card-title">{name}</span>
